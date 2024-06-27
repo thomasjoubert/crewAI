@@ -14,6 +14,13 @@ Install CrewAI and any necessary packages for your project. CrewAI is compatible
 pip install crewai
 pip install 'crewai[tools]'
 ```
+## Step x : Create Your Crew folders Automatically
+Excited about running your first Crew as soon as possible? 
+A very cool way to get started and get all the files needed to try CrewAI is by typing
+```shell
+crewai create name_of_your_project
+```
+This will automatically install all the required files to get you started in a breeze.
 
 ## Step 1: Assemble Your Agents
 Define your agents with distinct roles, backstories, and enhanced capabilities like verbose mode, memory usage, and the ability to set specific agents as managers. These elements add depth and guide their task execution and interaction within the crew.
