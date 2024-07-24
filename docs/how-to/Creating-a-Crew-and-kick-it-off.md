@@ -13,8 +13,10 @@ Install CrewAI and any necessary packages for your project. CrewAI is compatible
 pip install crewai
 pip install 'crewai[tools]'
 ```
+## Step 1 : Create Your Project or Assemble Your Agents
+From there you can choose how you want to start, you can ask CrewAI to [create a project structure automatically](https://github.com/crewAIInc/crewAI/edit/main/docs/how-to/Start-a-New-CrewAI-Project.md)) or assemble your agents directly.
 
-## Step 1: Assemble Your Agents
+## Assemble Your Agents
 Define your agents with distinct roles, backstories, and enhanced capabilities. The Agent class now supports a wide range of attributes for fine-tuned control over agent behavior and interactions, including code execution and integration with third-party agents.
 
 ```python
